@@ -1,0 +1,223 @@
+/* @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css); */
+/* @font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(../font/nanumSquarer.eot);
+ src: url(../font/nanumSquarer.eot?#iefix) format('embedded-opentype'),
+      url(../font/nanumsquarer.woff2) format('woff2'),
+      url(../font/nanumSquarer.woff) format('woff'),
+      url(../font/nanumSquarer.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(../font/nanumSquareb.eot);
+ src: url(../font/nanumSquareb.eot?#iefix) format('embedded-opentype'),
+      url(../font/nanumsquareb.woff2) format('woff2'),
+      url(../font/nanumSquareb.woff) format('woff'),
+      url(../font/nanumSquareb.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url(../font/NanumSquareEB.eot);
+ src: url(../font/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareEB.woff) format('woff'),
+      url(../font/NanumSquareEB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url(../font/NanumSquareL.eot);
+ src: url(../font/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(../font/NanumSquareL.woff) format('woff'),
+      url(../font/NanumSquareL.ttf) format('truetype');
+} */
+
+@font-face {
+font-family: 'NotoKr';
+font-style: normal;
+font-weight: 300;
+src: local('Noto Sans Light'), local('NotoSans-Light'), url(../font/NotoSans-Light.eot);
+src: url(../font/NotoSans-Light.eot?#iefix) format('embedded-opentype'),
+url(../font/NotoSans-Light.woff2) format('woff2'),
+url(../font/NotoSans-Light.woff) format('woff'),
+url(../font/NotoSans-Light.otf) format('opentype');
+}
+@font-face {
+font-family: 'NotoKr';
+font-style: normal;
+font-weight: 400;
+src: local('Noto Sans Regular'), local('NotoSans-Regular'), url(../font/NotoSans-Regular.eot);
+src: url(../font/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+url(../font/NotoSans-Regular.woff2) format('woff2'),
+url(../font/NotoSans-Regular.woff) format('woff'),
+url(../font/NotoSans-Regular.otf) format('opentype');
+}
+@font-face {
+font-family: 'NotoKr';
+font-style: normal;
+font-weight: 700;
+src: local('Noto Sans Medium'), local('NotoSans-Medium'), url(../font/NotoSans-Medium.eot);
+src: url(../font/NotoSans-Medium.eot?#iefix) format('embedded-opentype'),
+url(../font/NotoSans-Medium.woff2) format('woff2'),
+url(../font/NotoSans-Medium.woff) format('woff'),
+url(../font/NotoSans-Medium.otf) format('opentype');
+}
+@font-face {
+font-family: 'NotoKr';
+font-style: normal;
+font-weight: 800;
+src: local('Noto Sans Bold'), local('NotoSans-Bold'), url(../font/NotoSans-Bold.eot);
+src: url(../font/NotoSans-Bold.eot?#iefix) format('embedded-opentype'),
+url(../font/NotoSans-Bold.woff2) format('woff2'),
+url(../font/NotoSans-Bold.woff) format('woff'),
+url(../font/NotoSans-Bold.otf) format('opentype');
+}
+
+input {box-sizing: border-box; font-family: "NotoKr","Meiryo", Arial, "sans-serif"; font-stretch:ultra-condensed;}
+input:-ms-input-placeholder { color: #c1c1c1; }
+input::-webkit-input-placeholder { color: #c1c1c1; }
+input::-moz-placeholder { color: #c1c1c1; }
+textarea:-ms-input-placeholder { color: #c1c1c1; }
+textarea::-webkit-input-placeholder { color: #c1c1c1; }
+textarea::-moz-placeholder { color: #c1c1c1; }
+
+/* 그리드 */
+.w300 {max-width: 300px; margin: auto;}
+.w500 {max-width: 500px; margin: auto;}
+.w1000 {max-width: 1150px; margin:auto;}
+.w1100 {max-width: 1100px; margin:auto;}
+.w1200 {max-width: 1200px; margin:auto;}
+.w1400 {max-width: 1400px; margin:auto;}
+.w1600 {max-width: 1600px; margin:auto;}
+.w2000 {max-width: 2000px; margin:auto;}
+.w3000 {max-width: 3000px; margin:auto;}
+
+.pink_btn {background-color:#EC8AAB; color:#FFF; font-size:1.1em; border:none; font-weight: bold; padding:10px 0; cursor: pointer;}
+.purple_btn {background-color:#603779; color:#FFF; font-size:1.1em; border:none; font-weight: bold; padding:10px 20px; cursor: pointer; box-sizing: border-box;}
+.gray_btn {background-color:#AAA; color:#FFF; font-size:1.1em; border:none; font-weight: bold; padding:10px 0; cursor: pointer;}
+.btn_cancel {box-sizing: border-box;}
+.btn_cancel2 {background-color:#fff; border:#603779 1px solid; color:#603779; font-size:1.1em; padding:10px 20px; font-weight: bold; cursor: pointer; box-sizing: border-box;}
+.btn_check {width:18%; text-align:center; margin:0; padding-left:0; padding-right:0; border:#603779 1px solid;border-color: #603779;}
+.purple {color:#603779 !important;}
+.purple_btn2 {background-color:#FFF; color:#603779; font-size:1.1em; border:#603779 1px solid; font-weight: bold; padding:10px 20px; cursor: pointer; box-sizing: border-box;}
+
+@media screen and (max-width: 1180px) {
+	.m0 {display: none;}
+	.w1000 {padding:0 5px}
+	.mf0 {float:none !important;}
+
+	/* 헤더 */
+  header #logo {margin-right:5%;}
+  #hd_sch {width:17%;}
+
+  /* 푸터 */
+	#info {width:100%; float:none;}
+  #info section {text-align:center;}
+  .posts_qa {width:100%; padding:10px 10px; font-size:1em !important;}
+  .posts_free {width:100%; padding:10px 10px; padding-top:20px !important; font-size:1em !important;}
+
+	/* 상세 */
+	.len2 #submenu span, .len4 #submenu span{font-size:1em !important;}
+	.ct_here span{font-size:1em !important;}
+
+	#sit_title{padding:15px 25px; font-size:1.3em;}
+	.sit_schedule {width:100% !important;}
+	.sit_schedule_hd_txt {width:100% !important; margin-right:0px !important; text-align:center;}
+	.sit_schedule_hd_input {width:100% !important; text-align:center;}
+	.sit_schedule input {width:95% !important; float:none; margin:0px 10px 17px !important;}
+	#sit_sel_option{width:100%; margin-left:0px !important; padding-right:0px !important; margin-bottom:50px;}
+
+	/* 결제 */
+	.sod_left {width:100% !important;}
+	.buyInfo li {width:100% !important; }
+	#sod_frm_pay{margin-left:0px !important; padding-right:0px !important; margin-bottom:50px !important;}
+
+	/* 게시판 */
+	.write_board label{min-width:100px; font-size:1.0em !important; padding-left:15px;}
+
+	.write_board label{min-width:80px; font-size:0.8em !important; padding-top:11px !important; padding-left:15px; color:#a2a2a2;}
+	.write_board input{width:69% !important;}
+	.write_board .smarteditor2{width:69% !important;}
+	#wr_file {padding:0 0 2px 20px !important; width:60.6% !important;}
+	#wr_sel {padding:11px 0 0 0 !important;}
+	#bo_w{padding-right:20px !important;}
+
+	#wr_confirm {padding-top:7px !important; font-size:1.0em !important; width:100px !important;}
+	#wr_cancel {padding-top:7px !important; font-size:1.0em !important; width:100px !important;}
+
+	/* 결제 */
+	#how_pay {font-size: 1.1em !important; margin-right:3% !important;}
+}
+
+@media screen and (max-width: 480px) {
+	.m1 {width:100%;}
+	.m2 {width:50%;}
+
+  /* 헤더 */
+  header #logo {width:70px; margin-right:15px;}
+
+  #topmenu li {font-size:0.8em;}
+  #mainmenu li{margin:5px 3% 10px 0px; font-size:0.9em;}
+
+  #hd_sch {width:46%; margin-top:0px;}
+  #hd_sch #sch_str {height:30px; padding-top:0px; padding-bottom:3px;}
+  #hd_sch #sch_submit {height:30px;}
+
+  /* 푸터 */
+  #info section {padding-top:0px;}
+	.posts_qa {font-size:0.9em !important;}
+	.posts_free {font-size:0.9em !important;}
+
+  /* 로그인 */
+  .social_link {font-size:1.4em;}
+  #sns_login .txt {padding-top:7px;}
+  #login_info {font-size:0.7em;}
+  .ico {margin-top:5px;}
+
+	.modifyAI td  {font-size:0.7em; word-break: break-all; height:120px !important; padding-left:5px !important;}
+	.modifyAI td img {width:100px; height:110px;}
+	.myDate {width:40px !important;}
+	.myImg {min-width:100px !important;}
+
+	/* 상세 */
+	.len2 #submenu span, .len4 #submenu span{font-size:0.7em !important;}
+	.ct_here span{font-size:0.7em !important;}
+
+	#sit_title{font-size:1em;}
+	.sit_schedule_hd p {font-size:1em !important;}
+	.sit_schedule_hd input {font-size:0.9em !important;}
+	.sit_schedule p {font-size:0.8em !important;}
+	.sod_schedule_hd_txt p {font-size:1em !important; padding-bottom:14px !important;}
+
+	.ui-datepicker {width:250px !important; height:264px !important;}
+	.ui-datepicker-header {font-size:1.2em !important; padding:6px 0 !important; height:45px !important;}
+	.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {top:42% !important;}
+	.ui-datepicker table {background-color:#FFF !important;}
+	.ui-datepicker table th {height:35px !important; padding-top:10px !important;}
+	.ui-datepicker table td {width:35px !important;}
+	.ui-datepicker table td span {height:35px !important; padding-top:10px !important; margin:}
+	.ui-state-default {height:35px !important; padding-top:10px !important;}
+	.ui-state-active {text-align:center !important;
+	  height:27px !important; width:27px !important; padding-top:5px !important;}
+
+	.buyInfo label { font-size: 1.1em !important; }
+	.buyInfo input { font-size: 1em !important; }
+	.buyInfo select { font-size: 1em !important; }
+
+	.tbl_head01 td {font-size:0.8em !important;}
+	.td_num2 {word-break:keep-all !important;}
+
+	/* 게시판 */
+	#wr_sel {padding:12px 0 0 0 !important; width:20.5% !important;}
+	#wr_file {padding:0 0 2px 20px !important; width:48.6% !important;}
+	#wr_confirm {padding-top:10px !important; font-size:0.8em !important; width:80px !important;}
+	#wr_cancel {padding-top:10px !important; font-size:0.8em !important; width:80px !important;}
+
+	.lostidpw {max-width:90% !important; margin-left:5% !important;}
+	.lostidpw.btn_cancel2, .lostidpw.btn_submit {width:49.9% !important}
+
+	/* 결제 */
+	#how_pay {font-size: 0.8em !important; margin-right:2% !important;}
+}

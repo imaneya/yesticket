@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.ui-datepicker-header {background-color:#6F5B80; font-size:1.2em; border:none; color:#FFF; padding:15px 0;}
+.ui-widget-content {border:none;}
+.ui-corner-all {border:none;}
+.ui-datepicker {padding:0px; }
+.ui-datepicker table {font-size:0.7em;}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year { width: 70px;}
+.ui-datepicker-trigger { margin:0 0 -5px 2px; }
